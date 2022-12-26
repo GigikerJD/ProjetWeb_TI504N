@@ -10,18 +10,19 @@ body {
 .menu {
     min-height: 10vh;
     padding: 0.5em;
-    margin: auto;
     text-align: center;
+    margin: auto;
+
 }
 
-.menu ul {
+.menu > ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
 }
 
-.menu ul li {
+.menu > ul > li {
     border : 4px outset lightgoldenrodyellow;
     text-align: center;
     width: 100px;
@@ -41,4 +42,3 @@ body {
     color: black;
     letter-spacing: 1.5px;
 }
-
