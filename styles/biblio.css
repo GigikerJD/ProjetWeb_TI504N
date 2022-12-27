@@ -15,14 +15,14 @@ body {
 
 }
 
-.menu > ul {
+.menu ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
 }
 
-.menu > ul > li {
+.menu ul li {
     border : 4px outset lightgoldenrodyellow;
     text-align: center;
     width: 110px;
