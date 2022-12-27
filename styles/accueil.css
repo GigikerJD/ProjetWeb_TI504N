@@ -11,20 +11,19 @@ body {
     min-height: 10vh;
     padding: 0.5em;
     margin: auto;
-    text-align: center;
 }
 
 .menu ul {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
-    list-style: none;
+    list-style-type: none;    
 }
 
 .menu ul li {
     border : 4px outset lightgoldenrodyellow;
+    width: 110px;
     text-align: center;
-    width: 100px;
     border-radius: 10px;
 }
 
