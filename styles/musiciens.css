@@ -52,7 +52,7 @@ body {
 .main-foot {
     background-color: rgb(26, 24, 24);
     padding: 1.25em;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 15vh;
