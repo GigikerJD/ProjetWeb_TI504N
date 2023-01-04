@@ -15,7 +15,6 @@
                 <li><a href="accueil.html">Accueil</a></li>
                 <li><a href="biblio.html">Bibliothèque</a></li>
                 <li><a href="musiciens.html">Musiciens</a></li>
-                <li><a href="propos.html">A propos</a></li>
                 <li><a href="form.html">Connexion</a></li>
             </ul>
         </nav>
@@ -34,14 +33,34 @@
         </div>
         <div class="signup">
             Vous n'aves pas encore de compte ?<br>
-            <span><a href="#">S'inscrire</a></span>
+            <span><a href="#" id="account">S'inscrire</a></span>
+            <div class="create_account">
+                <form class="create" name="myform">
+                    <p>Votre nom : <input type="text" name="name" id="name"></p>
+                    <p>Votre prénom : <input type="text" name="fname" id="fname"></p>
+                    <p>Votre age : <input type="number" name="age" id="age"></p>
+                    <p>Mot de passe : <input type="password" name="password" id="password"></p>
+                    <p>
+                        Instrument(s) de musique dont vous jouez :
+                        <select name="instrus" id="ins">
+                            <option value="guitare">guitare</option>
+                            <option value="batterie">batterie</option>
+                            <option value="contrebasse">contrebasse</option>
+                            <option value="harmonica">harmonica</option>
+                            <option value="piano">piano</option>
+                            <option value="flûte">flûte</option>
+                        </select>
+                    </p>
+                </form>
+            </div>
         </div>
     </div>
 
     <footer class="main-foot">
         <section id="contacts">
             <div id="title">
-                <h3>Hello, la communauté, si vous voulez en savoir plus,<br> veuillez nous contacter !</h3>
+                <p>Hello, la communauté, si vous voulez en savoir plus, veuillez nous contacter !<br>
+                    Si vous souhaitez en connaitre plus sur nous,<br>veuillez vous rediriger sur la page <a href="propos.html">Propos</a>, ci-présente.</p>
             </div>
 
             <div class="icons">
