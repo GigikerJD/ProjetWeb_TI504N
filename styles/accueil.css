@@ -12,49 +12,40 @@ body {
 }
 
 .menu {
-    min-height: 10vh;
-    padding: 0.5em;
-    margin: auto;
+    padding: 1%;
 }
 
 .menu ul {
     display: flex;
-    justify-content:space-around;
-    align-items: center;
-    list-style-type: none;    
-}
-
-.menu ul li {
-    border : 4px outset lightgoldenrodyellow;
-    width: 110px;
-    text-align: center;
-    border-radius: 10px;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-left: 0px;
 }
 
 .menu ul li a {
+    display: block;
+    padding: 3px 10px 3px 10px;
+    border : 4px outset lightgoldenrodyellow;
+    border-radius: 10px;
     text-decoration: none;
     color: #fff;
     font-family: Poppins, sans-serif;
 }
 
-.menu ul li:hover {
-    background-color: yellow;
-}
 .menu ul li a:hover {
+    background-color: yellow;
     color: black;
-    letter-spacing: 1.5px;
 }
 
 /* Création du footer du site */
 
 .main-foot {
     background-color: rgb(26, 24, 24);
-    padding-top: 2em;
-    padding-bottom: 1em;
+    padding-top: 1%;
+    padding-bottom: 1%;
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 15vh;
     color: #fff;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
@@ -71,28 +62,20 @@ body {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
-    width: 125%;
-}
-
-#contacts .icons ul li {
-    text-align: center;
+    gap: 15px;
 }
 
 #title {
     text-align: center;
     transition: 1s;
     transition-property:initial;
+    padding: 10px;
 }
 
-.icons ul li img {
-    display: block;
+#title a:visited {
+    color: inherit;
 }
 
-.icons ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 1000;
-}
+
 
