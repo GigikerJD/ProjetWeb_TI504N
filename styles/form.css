@@ -3,7 +3,6 @@ body {
     font-family: Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    height: 100%;
 }
 
 .main-head {
@@ -48,10 +47,12 @@ body {
 
 .login {
     background-color: rgb(243, 228, 228);
-    width: 100%;
+    width: 75%;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 20vh;
+    padding: 2em;
+    border-radius: 2.5em;
+    margin-top: 12.5vh;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -87,6 +88,8 @@ body {
 }
 */
 
+/*On demande à l'internaute au cas où il n'a pas de compte créé*/
+
 .signup {
     display: flex;
     flex-direction: column;
@@ -97,12 +100,26 @@ body {
     letter-spacing: 1px;
 }
 
+/**/
+
+.create_account {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;  
+    display: none;
+    visibility: hidden;
+}
+
 
 /* Création du footer du site */
 
 .main-foot {
     background-color: rgb(26, 24, 24);
-    padding: 1.25em;
+    padding-top: 2em;
+    padding-bottom: 1em;
     position: fixed;
     bottom: 0;
     width: 100%;
