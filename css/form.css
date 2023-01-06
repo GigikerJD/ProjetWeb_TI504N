@@ -62,6 +62,7 @@
     border-radius: 4px;
     border: 1px inset rgb(7, 127, 183);
     background-color: white;
+    box-shadow: 2px 2px rgb(200,10,10);
 }
 /**/
 
