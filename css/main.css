@@ -1,8 +1,8 @@
+
 body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    overflow: auto;
 }
 
 /*-------------------------------------
@@ -58,9 +58,6 @@ body {
 
 .main-foot {
     background-color: #4497f4;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    position: sticky;
     bottom: 0;
     width: 100%;
     color: #fff;
