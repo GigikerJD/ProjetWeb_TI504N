@@ -30,15 +30,15 @@
     <div class="container">
         <div id="add_musician">
             <h2>Ajouter vos musiciens ou chanteurs connus</h2>
-            <form action="#" class="musician">
+            <form class="musician">
                 <p>
-                    Nom : <input type="text" name="name" id="name" required>
+                    Nom : <input type="text" id="name">
                 </p>
                 <p>
-                    Prénom : <input type="text" name="fname" id="fname" required>
+                    Prénom : <input type="text" id="fname">
                 </p>
                 <p>
-                    Vos instruments ? : <br><textarea name="instrus" id="instrus" cols="20" rows="5"></textarea>
+                    Vos instruments ? : <br><textarea id="instrus" cols="20" rows="5"></textarea>
                 </p>
                 <button onclick="addMusician()">Ajouter un musicien</button>
             </form>
@@ -52,7 +52,7 @@
                 </tr>
             </table>
 
-            <span id="result">Vous avez 0 musiciens ajouté(s)</span>
+            <p id="result">Vous avez 0 musiciens ajouté(s)</p>
         </div>
     </div>
 
