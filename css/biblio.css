@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left : auto;
-    margin-right : auto;
     padding-top: 5vh;
 }
 
@@ -45,15 +43,16 @@
 #tabmusicians {
     padding-top : 5vh;
     padding: 1em;
+    text-align: center;
 }
 
-#librairies {
+#tabmusicians #librairies {
     border-collapse: collapse;
     margin: auto;
     width: 75%;
 }
 
-#librairies thead {
+#librairies tr {
     background-color: rgb(18, 156, 202);
 }
 #librairies tr th, #librairies tr td{
@@ -61,8 +60,5 @@
     text-align: center;
 }
 
-#tabmusicians #result{
-    text-align: center;
-    visibility: visible;
-}
+
 
