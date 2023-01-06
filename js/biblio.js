@@ -9,10 +9,10 @@ function addMusician(){
         alert("Please fill in the form !");
     }
     else{
-        let newRow = table.insertRow(table.rows.length);
-        let cell = newRow.insertCell(0);
-        let cell1 = newRow.insertCell(1);
-        let cell2 = newRow.insertCell(2);
+        var newRow = table.insertRow(table.length);
+        var cell = newRow.insertCell(0);
+        var cell1 = newRow.insertCell(1);
+        var cell2 = newRow.insertCell(2);
         cell.innerHTML = name;
         cell1.innerHTML = firstname;
         cell2.innerHTML = instrus;
@@ -22,10 +22,10 @@ function addMusician(){
         cell2.style.border = "2px ridge rgb(67, 59, 59)";
         
     
-        let cpt = 0; //on incrémente le compteur
-        cpt = table.rows.length - 1;
+        var cpt = 0; //on incrémente le compteur
+        cpt = table.length - 1;
     
-        let result = document.getElementById("result");
+        var result = document.getElementById("result");
         result.innerHTML = "Vous avez " + cpt + " musiciens ajouté(s)";
     }
 }
