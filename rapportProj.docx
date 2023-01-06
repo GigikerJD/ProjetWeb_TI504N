@@ -6,3 +6,22 @@ Lo Re Mattéo
                                      Aftal : accordez-vous !
                                      
 Idée : Réaliser un site vitrine pour présenter l'application de notre projet transverse, une application de mise en relation pour musiciens.
+
+Page :
+- Accueil
+- Bibliotheque
+- Musiciens
+- Connexions
+- A propos
+
+Toutes les pages possèdent les même header et footer. Dans le header on retrouve le titre du site ainsi que les liens pour les autre pages sauf à propos. La footer possède le liens pour la pages à propos et pour les différents réseaux sociaux de l'application. 
+La page accueil possède un lien pour acceder à la vidéo de présentation de l'application, un lien pour la télécharger, une brève présentation de l'application ainsi que des images d'illustration.
+La page Bibliothèque permet de stocker et d'ajouter des noms et prénoms de musicien ainsi que le ou les instrument(s) qu'ils jouent.
+La page Musicien 
+La page Connexion permet de se créer un compte ou de se connecter via ses identifiants.
+La page à propos propose une courte présentation des membres du projet. 
+
+Division du travaille :
+- Nelgie : A propos, Bibliothèque, Connexion
+- Mattéo : Musicien, Acceuil
+- Paul-Loup : header et footer
