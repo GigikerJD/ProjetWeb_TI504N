@@ -30,6 +30,15 @@
     box-shadow: 2px 2px rgb(231, 18, 142);
 }
 
+.signin p button {
+    width: 14rem;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0.5em;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(231, 18, 142);   
+}
+
 .signin p input[type=button] {
     transition: 1s all darkmagenta;
     cursor: pointer;

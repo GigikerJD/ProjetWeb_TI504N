@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/form.css">
+    <script src="../js/form.js"></script>
     <link rel="icon" href="../images/favicon.png">
     <title>Aftal</title>
 </head>
@@ -36,13 +37,15 @@
                     <input type="password" name="pwd" id="pwd" placeholder="Mot de passe">
                 </p>
                 <p>
-                    <input type="button" onclick="Login()" value="Se connecter">
+                    <button onclick="Login()">Se connecter</button>
                 </p>
             </form>
         </div>
         <div class="signup">
-            Vous n'avez pas encore de compte ?<br>
-            <button type="submit" id="change">S'inscrire</button>
+            <div class="cannot">
+                Vous n'avez pas encore de compte ?<br>
+                <button type="submit" id="change">S'inscrire</button>
+            </div>
             <div class="create_account">
                 <form class="create" name="myform">
                     <p>Votre nom : <input type="text" name="name" id="name"></p>
