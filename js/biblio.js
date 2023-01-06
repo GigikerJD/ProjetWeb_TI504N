@@ -3,23 +3,28 @@ function addMusician(){
     let firstname = document.getElementById("fname").value;
     let instrus = document.getElementById("instrus").value;
 
+    let newLine = document.createElement("tr");
+    let cell1 = document.createElement("td");
+    let cell2 = document.createElement("td");
+    let cell3 = document.createElement("td");
+    newLine.appendChild(cell1);
+    newLine.appendChild(cell2);
+    newLine.appendChild(cell3);
+
     let table = document.getElementById("librairies");
 
-    if(name == "" || firstname == ""){
+    if(name == "" || firstname == "" || instrus == ""){
         alert("Please fill in the form !");
     }
     else{
-        var newRow = table.insertRow(table.length);
-        var cell = newRow.insertCell(0);
-        var cell1 = newRow.insertCell(1);
-        var cell2 = newRow.insertCell(2);
-        cell.innerHTML = name;
-        cell1.innerHTML = firstname;
-        cell2.innerHTML = instrus;
+        table.appendChild(newLine);
+        cell1.textContent = name;
+        cell2.textContent = firstname;
+        cell3.textContent = instrus;
     
-        cell.style.border = "2px ridge rgb(67, 59, 59)";
         cell1.style.border = "2px ridge rgb(67, 59, 59)";
         cell2.style.border = "2px ridge rgb(67, 59, 59)";
+        cell3.style.border = "2px ridge rgb(67, 59, 59)";
         
     
         var cpt = 0; //on incrémente le compteur
