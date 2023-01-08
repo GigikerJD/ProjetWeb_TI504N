@@ -17,7 +17,7 @@ function showAccount(){
 function Login(){
     let loginForm = document.forms["connect"];
 
-    if(loginForm[0].value == "" || loginForm[1] == ""){
+    if(loginForm[0].value == "" && loginForm[1] == ""){
         alert("Please, you need to fill your email and password !");
     }
     else if(loginForm[0].value == "" && loginForm[1].value != ""){
